@@ -12,6 +12,8 @@ $(document).ready(function(){
       card1=$(this).find("p").text();
     	$(this).find("p").css("opacity", "1");}
     else{
+      card2=$(this).find("p").text();
+      if card2===card1
       
     }
   });
