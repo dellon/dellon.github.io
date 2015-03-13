@@ -13,8 +13,8 @@ $(document).ready(function(){
     	$(this).find("p").css("opacity", "1");}
     else{
       card2=$(this).find("p").text();
-      if card2===card1
-      
+      if (card2===card1){
+      {$
     }
   });
 });
