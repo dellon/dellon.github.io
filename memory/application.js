@@ -6,13 +6,13 @@ $(document).ready(function(){
   var click_counter=0;
   var card1=0;
   var card2=0;
-  $(".card").click(function(){
+  $(".card").click(function(){//To make sure that a player click changes the card
     if(click_counter==0){
       click_counter == 1;
-      card1=$(this).find("p").text();
+      card1=$(this).find("p").text();//"flipping" the card
     	$(this).find("p").css("opacity", "1");}
     else{
-      card2=$(this).find("p").text();
-      //if (card2===card1)
+      card2=$(this).find("p").text();//"flipping" the second card
+      //next would be to compare the btwo cards but I didn't have enough time
   });
 });
