@@ -15,4 +15,6 @@ $(document).ready(function(){
     } else if (userGuess > randomNumber ){
       alert("Guess Lower")
     } else if(userGuess < randomNumber){
-      alert("Guess Higher")
+      alert("Guess Higher")}
+});
+});
